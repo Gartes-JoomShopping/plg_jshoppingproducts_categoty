@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="3.8" group="jshoppingproducts" method="upgrade">
-	<name>PLG_JSHOPPINGPRODUCTS_CATEGORY</name>
+	<name>plg_jshoppingproducts_category</name>
 	<creationDate>16.07.2020</creationDate>
 	<author>Gartes</author>
 	<authorEmail>your@email.com</authorEmail>
@@ -10,13 +10,6 @@
 	<version>2.0</version>
 	<description>PLG_JSHOPPINGPRODUCTS_CATEGORY_XML_DESCRIPTION</description>
 
-	<!-- Scripts to run on installation -->
-<!--	<scriptfile></scriptfile>-->
-
-
-
-
-	<!-- Plugin files -->
 	<files>
 		<folder>language</folder>
 		<filename>LICENSE</filename>
