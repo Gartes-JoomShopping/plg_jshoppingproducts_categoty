@@ -13,13 +13,14 @@ defined('_JEXEC') or die;
 use Joomla\CMS\Application\CMSApplication;
 use Joomla\CMS\Plugin\CMSPlugin;
 
+
 /**
  * Plg_jshoppingproducts_category plugin.
  *
  * @package   plg_jshoppingproducts_category
  * @since     1.0.0
  */
-class plgJshoppingproductsPlg_jshoppingproducts_category extends CMSPlugin
+class plgJshoppingProductsPlg_Jshoppingproducts_Category extends JPlugin
 {
 	/**
 	 * Application object
@@ -45,7 +46,20 @@ class plgJshoppingproductsPlg_jshoppingproducts_category extends CMSPlugin
 	 */
 	protected $autoloadLanguage = true;
 
-	/**
+    /**
+     * plgJshoppingproductsPlg_Jshoppingproducts_Category constructor.
+     * @param CMSApplication $app
+     */
+    public function __construct(&$subject, $config = array())
+    {
+        parent::__construct($subject, $config = array());
+        die(__FILE__ .' '. __LINE__ );
+
+
+    }
+
+
+    /**
 	 * onAfterInitialise.
 	 *
 	 * @return  void
@@ -54,6 +68,7 @@ class plgJshoppingproductsPlg_jshoppingproducts_category extends CMSPlugin
 	 */
 	public function onAfterInitialise()
 	{
+
 
 	}
 
@@ -129,4 +144,24 @@ class plgJshoppingproductsPlg_jshoppingproducts_category extends CMSPlugin
 	{
 
 	}
+
+
+	public function onBeforeLoadProductList(){
+	    die(__FILE__ .' '. __LINE__ );
+    }
+
+    public function onBeforeQueryCountProductList($type, &$adv_result, &$adv_from, &$adv_query, &$order_query, &$filters)
+    {
+        die(__FILE__ .' '. __LINE__ );
+    }
+
+    public function onBeforeQueryGetProductList($type, &$adv_result, &$adv_from, &$adv_query, &$order_query, &$filters)
+    {
+        die(__FILE__ .' '. __LINE__ );
+
+
+    }
+
+
+
 }

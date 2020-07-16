@@ -7,7 +7,7 @@
 	<authorUrl>http://your.url.com</authorUrl>
 	<copyright>A copyright</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<version>1.0</version>
+	<version>2.0</version>
 	<description>PLG_JSHOPPINGPRODUCTS_CATEGORY_XML_DESCRIPTION</description>
 
 	<!-- Scripts to run on installation -->
@@ -21,7 +21,9 @@
 		<folder>language</folder>
 		<filename>LICENSE</filename>
 		<filename plugin="plg_jshoppingproducts_categoty">plg_jshoppingproducts_categoty.php</filename>
+		<filename>plg_jshoppingproducts_categoty_update.xml</filename>
 		<filename>README.md</filename>
+		<filename>script.php</filename>
 
 	</files>
 
