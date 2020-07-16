@@ -16,7 +16,7 @@ defined('_JEXEC') or die;
  * @package   plg_jshoppingproducts_category
  * @since     1.0.0
  */
-class plgSystemPlg_jshoppingproducts_categoryInstallerScript
+class plgJshoppingproductsPlg_jshoppingproducts_categoryInstallerScript
 {
 	/**
 	 * Constructor
