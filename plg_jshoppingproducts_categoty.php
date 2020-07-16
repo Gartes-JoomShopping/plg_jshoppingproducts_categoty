@@ -1,8 +1,8 @@
 <?php
 /**
- * @package    plg_jshoppingproducts_categoty
+ * @package    plg_jshoppingproducts_category
  *
- * @author     oleg <your@email.com>
+ * @author     Gartes <your@email.com>
  * @copyright  A copyright
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  * @link       http://your.url.com
@@ -14,12 +14,12 @@ use Joomla\CMS\Application\CMSApplication;
 use Joomla\CMS\Plugin\CMSPlugin;
 
 /**
- * Plg_jshoppingproducts_categoty plugin.
+ * Plg_jshoppingproducts_category plugin.
  *
- * @package   plg_jshoppingproducts_categoty
+ * @package   plg_jshoppingproducts_category
  * @since     1.0.0
  */
-class plgSystemPlg_jshoppingproducts_categoty extends CMSPlugin
+class plgJshoppingproductsPlg_jshoppingproducts_category extends CMSPlugin
 {
 	/**
 	 * Application object

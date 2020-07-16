@@ -1,8 +1,8 @@
 <?php
 /**
- * @package    plg_jshoppingproducts_categoty
+ * @package    plg_jshoppingproducts_category
  *
- * @author     oleg <your@email.com>
+ * @author     Gartes <your@email.com>
  * @copyright  A copyright
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  * @link       http://your.url.com
@@ -11,12 +11,12 @@
 defined('_JEXEC') or die;
 
 /**
- * Plg_jshoppingproducts_categoty script file.
+ * Plg_jshoppingproducts_category script file.
  *
- * @package   plg_jshoppingproducts_categoty
+ * @package   plg_jshoppingproducts_category
  * @since     1.0.0
  */
-class plgSystemPlg_jshoppingproducts_categotyInstallerScript
+class plgSystemPlg_jshoppingproducts_categoryInstallerScript
 {
 	/**
 	 * Constructor

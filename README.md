@@ -1,2 +1,2 @@
-# plg_jshoppingproducts_categoty
-plg_jshoppingproducts_categoty
+# plg_jshoppingproducts_CATEGORY
+plg_jshoppingproducts_CATEGORY
