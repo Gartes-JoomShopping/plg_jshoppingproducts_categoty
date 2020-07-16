@@ -19,7 +19,8 @@
 	<!-- Plugin files -->
 	<files>
 		<folder>language</folder>
-		<filename plugin="plg_jshoppingproducts_category">plg_jshoppingproducts_category.php</filename>
+		<filename>LICENSE</filename>
+		<filename plugin="plg_jshoppingproducts_categoty">plg_jshoppingproducts_categoty.php</filename>
 		<filename>README.md</filename>
 
 	</files>
