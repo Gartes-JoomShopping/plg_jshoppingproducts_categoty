@@ -41,6 +41,6 @@
 
 	<!-- Update servers -->
 	<updateservers>
-		<server type="extension" priority="1" name="plg_system_joomshopping_smart_filter">   </server>
+		<server type="extension" priority="1" name="github_plg_jshoppingproducts_category">https://raw.githubusercontent.com/Gartes-JoomShopping/plg_jshoppingproducts_categoty/master/plg_jshoppingproducts_categoty_update.xml</server>
 	</updateservers>
 </extension>

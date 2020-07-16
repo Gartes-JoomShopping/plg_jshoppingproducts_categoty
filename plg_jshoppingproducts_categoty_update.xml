@@ -1,0 +1,17 @@
+<updates>
+    <update>
+        <name>PLG_JSHOPPINGPRODUCTS_CATEGORY By Gartes</name>
+        <description><![CDATA[PLG_JSHOPPINGPRODUCTS_CATEGORY update]]></description>
+        <type>plugin</type>
+        <folder>jshoppingproducts</folder>
+        <element>plg_jshoppingproducts_category</element>
+        <version>1.3</version>
+        <client>0</client>
+        <infourl title="github.com">https://github.com/Gartes-JoomShopping/plg_jshoppingproducts_categoty/blob/master/README.md</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/Gartes-JoomShopping/plg_jshoppingproducts_categoty/archive/master.zip</downloadurl>
+        </downloads>
+        <targetplatform name="joomla" version=".*"/>
+        <php_minimum>5.3.10</php_minimum>
+    </update>
+</updates>
